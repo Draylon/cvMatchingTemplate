@@ -65,47 +65,48 @@ códigos-fonte utilizados.
 
 ## :sparkles: Recursos ##
 
-:heavy_check_mark: Criar rastreamento de um objeto em um vídeo.\
+:heavy_check_mark: Criar Rastreamento de um objeto em um vídeo.\
 
-## :rocket: Technologies ##
-
-The following tools were used in this project:
+## :rocket: Ferramentas ##
 
 - [Python 3](https://python.org/)
-- [Chocolatey](https://https://chocolatey.org/) ( Optional )
+- [Chocolatey](https://https://chocolatey.org/) - Windows Package Manager
 - [FFMpeg](https://www.ffmpeg.org/)
 - [OpenCV Python](https://pypi.org/project/opencv-python/)
-- [Pipreqs](https://pypi.org/project/pipreqs/) Python requirements generator
+- [Pipreqs](https://pypi.org/project/pipreqs/) - Python requirements generator
 
-## :white_check_mark: Requirements ##
+## :white_check_mark: Dependências ##
 
- - Before starting :checkered_flag:, you need to have [Git](https://git-scm.com).
- - Without Chocolatey, manually installation of [FFMpeg](https://www.ffmpeg.org/) is required.
+ - Baixar o repositório utilizando o [Git](https://git-scm.com) ou [Link do ZIP](https://github.com/Draylon/cvMatchingTemplate/archive/refs/heads/master.zip).
+
+ - [Chocolatey](https://https://chocolatey.org/) Instalado ( Opcional ).
 
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Start ##
 
 ```bash
 
-# Install ffmpeg through chocolatey
+# Instalar dependências com Chocolatey no WINDOWS 💖
 choco install ffmpeg
+choco install git
 
-# Download Video repository from google Drive folder:
+# Instalar dependências no LINUX 🗑
+apt install git
+apt install ffmpeg
+
+# Baixar pasta de arquivos de teste:
 https://drive.google.com/drive/folders/1dPAoJhukNkaB7EjhVzsSNqE6yRCUNg91?usp=sharing
 
-# Clone this project
+# clonar o projeto
 $ git clone https://github.com/draylon/cvmatchingtemplate
 
-# Access
-$ cd cvmatchingtemplate
-
-# Install dependencies
+# Instalar dependências do python
 $ pip3 install -r requirements.txt
 
 # Criar imagens apartir de vídeo
 $ ffmpeg -i <arquivo_entrada>.mp4 -vf fps=1 <arquivo_saida>%d.png
 
-# Run the project
+# Run
 $ py -3 main.py src/<arquivo_saida>
 
 ```
@@ -115,7 +116,7 @@ $ py -3 main.py src/<arquivo_saida>
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/draylon" target="_blank">𝓜!𝓻𝓪𝓬𝓵𝓮𝓐𝓾𝓻𝓪</a>
+Made with [ :heart: , :coffee: ] by <a href="https://github.com/draylon" target="_blank">𝓜!𝓻𝓪𝓬𝓵𝓮𝓐𝓾𝓻𝓪</a>
 
 &#xa0;
 
