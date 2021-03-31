@@ -3,9 +3,13 @@
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/draylon/cvmatchingtemplate?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/draylon/cvmatchingtemplate?color=56BEB8">
+  <img alt="Issues" src="https://img.shields.io/github/issues/Draylon/cvMatchingTemplate">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/draylon/cvmatchingtemplate?color=56BEB8">
+
+  <img alt="Python version" src="https://img.shields.io/github/downloads/draylon/cvmatchingtemplate/latest/total">
+
+  <img alt="Commit Activity" src="https://img.shields.io/github/commit-activity/w/draylon/cvmatchingtemplate">
 
   <img alt="License" src="https://img.shields.io/github/license/draylon/cvmatchingtemplate?color=56BEB8">
 
@@ -25,8 +29,9 @@
 <hr> -->
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#dart-enunciado">Enunciado</a> &#xa0; | &#xa0; 
+  <a href="#boom-entrega">Entrega</a> &#xa0; | &#xa0; 
+  <a href="#sparkles-recursos">Recursos</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
@@ -58,11 +63,9 @@ metodologia do experimento, resultados, análise, conclusão e\
 bibliografia. Insira ilustrações no relatório e anexe os \
 códigos-fonte utilizados.
 
-## :sparkles: Features ##
+## :sparkles: Recursos ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Criar rastreamento de um objeto em um vídeo.\
 
 ## :rocket: Technologies ##
 
