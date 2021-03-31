@@ -74,7 +74,7 @@ códigos-fonte utilizados.
 ## :rocket: Ferramentas ##
 
 - [Python 3](https://python.org/)
-- [Chocolatey](https://https://chocolatey.org/) - Windows Package Manager
+- [Chocolatey](https://chocolatey.org/) - Windows Package Manager
 - [FFMpeg](https://www.ffmpeg.org/)
 - [OpenCV Python](https://pypi.org/project/opencv-python/)
 - [Pipreqs](https://pypi.org/project/pipreqs/) - Python requirements generator
@@ -83,7 +83,7 @@ códigos-fonte utilizados.
 
  - Baixar o repositório utilizando o [Git](https://git-scm.com) ou [Link do ZIP](https://github.com/Draylon/cvMatchingTemplate/archive/refs/heads/master.zip).
 
- - [Chocolatey](https://https://chocolatey.org/) Instalado ( Opcional ).
+ - [Chocolatey](https://chocolatey.org/) Instalado ( Opcional ).
 
 
 ## :checkered_flag: Start ##
