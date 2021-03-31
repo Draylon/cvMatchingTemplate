@@ -7,11 +7,15 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/draylon/cvmatchingtemplate?color=56BEB8">
 
-  <img alt="Python version" src="https://img.shields.io/github/downloads/draylon/cvmatchingtemplate/latest/total">
+  <img alt="License" src="https://img.shields.io/github/license/draylon/cvmatchingtemplate?color=56BEB8">
+
+  <br>
+
+  <img alt="Github Downloads" src="https://img.shields.io/github/downloads/draylon/cvmatchingtemplate/latest/total">
 
   <img alt="Commit Activity" src="https://img.shields.io/github/commit-activity/w/draylon/cvmatchingtemplate">
 
-  <img alt="License" src="https://img.shields.io/github/license/draylon/cvmatchingtemplate?color=56BEB8">
+  
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/draylon/cvmatchingtemplate?color=56BEB8" /> -->
 
