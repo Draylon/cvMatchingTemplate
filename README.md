@@ -69,7 +69,7 @@ códigos-fonte utilizados.
 
 ## :sparkles: Recursos ##
 
-:heavy_check_mark: Criar Rastreamento de um objeto em um vídeo.\
+:heavy_check_mark: Criar Rastreamento de um objeto em um vídeo.
 
 ## :rocket: Ferramentas ##
 
