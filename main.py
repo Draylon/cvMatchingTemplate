@@ -1,14 +1,13 @@
 import sys
 if __name__ == "__main__":
-    parameter_list = sys.argv
-    if len(parameter_list) == 3:
-        addr = parameter_list[1]
-        protocol = [parameter_list[2]]
-    elif len(parameter_list) == 2:
-        protocol = [parameter_list[1]]
+    directory = ""
+    if len(sys.argv) >= 2:
+        directory=sys.argv[1]
+    else:
+        raise Exception("Insufficient Arguments: Missing directory!")
 
     from matchingTemplate import *
-    matchingTemplate()
+    matchingTemplate(directory)
 
 else:
     exit(0)
