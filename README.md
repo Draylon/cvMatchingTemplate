@@ -88,6 +88,8 @@ códigos-fonte utilizados.
 
 ## :checkered_flag: Start ##
 
+# main_manual.py é uma versão não-automática da main!!
+
 ```bash
 
 # Instalar dependências com Chocolatey no WINDOWS 💖
@@ -115,7 +117,10 @@ $ ffmpeg -i <arquivo_entrada>.mp4 -vf fps=1 <arquivo_saida>%d.png
 $ ffmpeg -r 30 -i <arquivo_saida>%d.png -c:v libx264 -pix_fmt yuv420p <video_saida>.mp4
 
 # Run
-$ py -3 main.py <arquivo_saida>
+$ py -3 main.py <video_entrada> <template_entrada> <video_saida(opcional)> <metodo_processamento(opcional)>
+
+# Metodos disponiveis: cv.TM_CCOEFF | cv.TM_CCOEFF_NORMED | cv.TM_CCORR | cv.TM_CCORR_NORMED | cv.TM_SQDIFF | cv.TM_SQDIFF_NORMED
+# Default: cv.TM_SQDIFF_NORMED
 
 ```
 
