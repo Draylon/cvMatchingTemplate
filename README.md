@@ -110,8 +110,12 @@ $ pip3 install -r requirements.txt
 # Criar imagens apartir de vídeo
 $ ffmpeg -i <arquivo_entrada>.mp4 -vf fps=1 <arquivo_saida>%d.png
 
+# Reconstruir vídeo apartir das imagens renderizadas
+
+$ ffmpeg -r 30 -i <arquivo_saida>%d.png -c:v libx264 -pix_fmt yuv420p <video_saida>.mp4
+
 # Run
-$ py -3 main.py src/<arquivo_saida>
+$ py -3 main.py <arquivo_saida>
 
 ```
 
