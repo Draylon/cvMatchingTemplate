@@ -1,6 +1,8 @@
 src/
 *.png
 *.jpg
+*.mp4
+*.old
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,pycharm,vscode
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,pycharm,vscode
